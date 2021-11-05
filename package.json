@@ -1,0 +1,19 @@
+{
+  "name": "freekick",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -watch"
+  },
+  "keywords": [
+    "just",
+    "code",
+    "it"
+  ],
+  "author": "Farrukhbek",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

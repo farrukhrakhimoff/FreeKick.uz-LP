@@ -1,0 +1,325 @@
+/* line 1, sass/base/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 5, sass/base/_base.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 8, sass/base/_base.scss */
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF; }
+
+/* line 1, sass/base/_typography.scss */
+.heading-primary {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  text-transform: uppercase; }
+
+/* line 2, sass/base/_typography.scss */
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400; }
+
+/* line 1, sass/base/_utility.scss */
+.u-margin-bottom-small {
+  margin-bottom: 2rem; }
+
+/* line 2, sass/base/_utility.scss */
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+/* line 3, sass/base/_utility.scss */
+.u-margin-bottom-large {
+  margin-bottom: 8rem; }
+
+/* line 5, sass/base/_utility.scss */
+.margin {
+  padding-left: 9rem; }
+
+/* line 1, sass/components/_buttons.scss */
+.btn-red {
+  border-radius: 3px;
+  background-color: #F7004A;
+  padding: 1.2rem 2.8rem; }
+
+/* line 6, sass/components/_buttons.scss */
+.span-red {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  background-color: #F7004A;
+  padding: 4px;
+  margin: 14px 0;
+  text-transform: uppercase; }
+
+/* line 14, sass/components/_buttons.scss */
+.span-green {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  background-color: #03B962;
+  padding: 4px;
+  margin: 14px 0;
+  text-transform: uppercase; }
+
+/* line 22, sass/components/_buttons.scss */
+.span-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 13px;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-top: 10px 0; }
+
+/* line 1, sass/layouts/_about.scss */
+.section__about {
+  background-color: #09091e;
+  width: 100%;
+  height: 300px; }
+  /* line 5, sass/layouts/_about.scss */
+  .section__about h4 {
+    width: 50%;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 2.4rem;
+    padding-top: 2.4rem; }
+  /* line 12, sass/layouts/_about.scss */
+  .section__about-text {
+    width: 50%; }
+  /* line 15, sass/layouts/_about.scss */
+  .section__about-margin {
+    padding-left: 9rem; }
+
+/* line 1, sass/layouts/_arrow.scss */
+.section__arrow {
+  background-color: #12133D;
+  width: 100%;
+  height: 360px; }
+  /* line 5, sass/layouts/_arrow.scss */
+  .section__arrow-box {
+    padding-top: 2.4rem;
+    display: flex;
+    height: inherit;
+    justify-content: space-around; }
+  /* line 11, sass/layouts/_arrow.scss */
+  .section__arrow_left {
+    height: inherit; }
+    /* line 13, sass/layouts/_arrow.scss */
+    .section__arrow_left h4 {
+      font-size: 24px; }
+    /* line 16, sass/layouts/_arrow.scss */
+    .section__arrow_left h1 {
+      margin-bottom: 4rem;
+      font-size: 48px;
+      line-height: 52px;
+      font-weight: 800;
+      font-family: 'Gilroy', sans-serif; }
+      /* line 23, sass/layouts/_arrow.scss */
+      .section__arrow_left h1-btn {
+        padding: 5px;
+        width: 50px;
+        height: 200px; }
+  /* line 32, sass/layouts/_arrow.scss */
+  .section__arrow_left .button a {
+    text-decoration: none;
+    color: #FFFFFF; }
+  /* line 38, sass/layouts/_arrow.scss */
+  .section__arrow_right {
+    background-size: cover;
+    height: inherit;
+    float: right; }
+    /* line 42, sass/layouts/_arrow.scss */
+    .section__arrow_right-img {
+      width: 32rem;
+      height: 32rem;
+      background-size: cover;
+      top: 0; }
+
+/* line 1, sass/layouts/_footer.scss */
+footer {
+  width: 100%; }
+  /* line 3, sass/layouts/_footer.scss */
+  footer img {
+    width: 100%; }
+
+/* line 2, sass/layouts/_header.scss */
+.container {
+  width: 90%;
+  margin: 0px auto; }
+
+/* line 7, sass/layouts/_header.scss */
+.section-header {
+  height: 80rem;
+  background: linear-gradient(0deg, rgba(18, 19, 61, 0.81), rgba(18, 19, 61, 0.81)), url(../../images/headerPic.png);
+  left: 0;
+  top: 0; }
+  /* line 12, sass/layouts/_header.scss */
+  .section-header .header {
+    padding: 1.3rem 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.4rem;
+    top: 1.1rem; }
+    /* line 20, sass/layouts/_header.scss */
+    .section-header .header__logo-box {
+      width: 12.5rem;
+      height: 3.3rem; }
+    /* line 25, sass/layouts/_header.scss */
+    .section-header .header-img {
+      padding: 8rem 10rem !important;
+      background-size: cover; }
+    /* line 30, sass/layouts/_header.scss */
+    .section-header .header__menu-box ul {
+      justify-content: space-between;
+      align-items: center;
+      list-style-type: none;
+      display: flex; }
+      /* line 37, sass/layouts/_header.scss */
+      .section-header .header__menu-box ul li a {
+        padding: 3.2rem 2.4rem;
+        text-decoration: none;
+        color: #FFFFFF; }
+    /* line 46, sass/layouts/_header.scss */
+    .section-header .header__right {
+      display: flex;
+      top: 0;
+      left: 0; }
+      /* line 50, sass/layouts/_header.scss */
+      .section-header .header__right ul {
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        display: flex; }
+        /* line 56, sass/layouts/_header.scss */
+        .section-header .header__right ul li a {
+          padding: 3.2rem 24px;
+          text-decoration: none;
+          color: #FFFFFF; }
+
+/* line 67, sass/layouts/_header.scss */
+.header__about {
+  padding-top: 75px; }
+  /* line 69, sass/layouts/_header.scss */
+  .header__about h1 {
+    font-size: 48px; }
+  /* line 72, sass/layouts/_header.scss */
+  .header__about p {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif; }
+
+/* line 81, sass/layouts/_header.scss */
+.buttons {
+  padding-top: 30px;
+  display: flex; }
+  /* line 85, sass/layouts/_header.scss */
+  .buttons__get-started a {
+    text-decoration: none;
+    color: #FFFFFF; }
+  /* line 90, sass/layouts/_header.scss */
+  .buttons__learn-more {
+    padding: 12px 28px; }
+    /* line 92, sass/layouts/_header.scss */
+    .buttons__learn-more a {
+      text-decoration: none;
+      color: #FFFFFF; }
+
+/* line 98, sass/layouts/_header.scss */
+.trending {
+  margin-top: 11.9rem;
+  margin-bottom: 11.9rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 2.5rem;
+  font-size: 2.4rem;
+  font-family: 'Gilroy';
+  font-weight: 800; }
+  /* line 107, sass/layouts/_header.scss */
+  .trending__red-line {
+    margin-bottom: 2.5rem;
+    width: 9rem;
+    height: 4px;
+    background-color: #F7004A; }
+  /* line 113, sass/layouts/_header.scss */
+  .trending__boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; }
+    /* line 119, sass/layouts/_header.scss */
+    .trending__boxes-1 {
+      width: calc(100% / 3);
+      margin-bottom: 25px;
+      display: flex; }
+    /* line 125, sass/layouts/_header.scss */
+    .trending__boxes-trending-text {
+      padding: 0 2rem; }
+
+/* line 1, sass/layouts/_registr.scss */
+.section__registr {
+  width: 100%;
+  height: 232px;
+  background-color: #12133D; }
+  /* line 6, sass/layouts/_registr.scss */
+  .section__registr-box {
+    display: flex; }
+  /* line 9, sass/layouts/_registr.scss */
+  .section__registr-left {
+    background-size: cover;
+    width: 50%;
+    padding: 48px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+    /* line 16, sass/layouts/_registr.scss */
+    .section__registr-left .logo {
+      width: 30rem;
+      height: 10rem; }
+  /* line 22, sass/layouts/_registr.scss */
+  .section__registr-right {
+    background-size: cover;
+    width: 50%;
+    padding: 48px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+    /* line 29, sass/layouts/_registr.scss */
+    .section__registr-right p {
+      align-content: center;
+      margin-right: 5rem;
+      font-size: 36px;
+      line-height: 40px; }
+    /* line 35, sass/layouts/_registr.scss */
+    .section__registr-right a {
+      text-decoration: none;
+      color: #FFFFFF; }
+
+/* line 1, sass/layouts/_videos.scss */
+.section__videos {
+  background-color: #09091e;
+  width: 100%;
+  height: 520px;
+  justify-content: space-around;
+  display: flex; }
+  /* line 7, sass/layouts/_videos.scss */
+  .section__videos h3 {
+    font-size: 24px;
+    padding-top: 24px; }
+  /* line 11, sass/layouts/_videos.scss */
+  .section__videos-left {
+    background-size: cover;
+    float: left; }
+  /* line 16, sass/layouts/_videos.scss */
+  .section__videos-right {
+    background-size: cover;
+    float: right; }
