@@ -16,7 +16,11 @@
         .logo{
             width: 30rem;
             height: 10rem;
-            
+            transform: scale(1);
+            transition: all .2s;
+                &:hover {
+                    transform: scale(.8);
+                }
         }
     }
     &-right {
